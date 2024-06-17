@@ -1,0 +1,12 @@
+main{
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+
+}
+
+.Principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
