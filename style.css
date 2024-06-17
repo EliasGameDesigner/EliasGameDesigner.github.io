@@ -1,6 +1,6 @@
 main{
     height: 50vh;
-    width: 100vw;
+    width: 90vw;
     display: flex;
 
 }
@@ -10,6 +10,12 @@ main{
     justify-content: space-between;
     align-items: center;
 }
+
+
+.Principal p{
+    width: 20vw;
+}
+
 
 header{
     display: flex;
