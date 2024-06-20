@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1F2235;;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    color: #CCCCCC;
+    height: 15vh;
+    font-family: 'Poppins', sans-serif;
+    margin: 80px;
+}
+
+
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 90vw;
+}
+
+
+li{
+    height: 100vh;
+    width: 80vw;
+    border: 1px solid #ff4a57;
+    border-radius: 100px;
+    margin: 10vh;
+}
