@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+nav{
+    display: flex;
+   
+
+}
+
+
+.LinhaDupla{
+    height: 5px;
+    width: 95vw;
+    border-top: 1.9px solid  black ;
+    border-bottom: 1.9px solid  black ;
+}
+
+
+ul{
+    display: flex;
+    width: 98vw;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+}
+
+li{
+    width: auto;
+    margin-left: 2px;
+    margin-right: 2px;
+
+    text-decoration: none;
+}
+
+.imagemH{
+    width: 235px;
+}
+
+.botoes{
+    width: 226px;
+}
+
+
+header p{
+    
+    width: 138px;
+}
+
+
+
+.logo{
+    display: flex;
+    width: 95vw;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.Idiomas {
+    display: flex;
+    width: 96vw;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+
+}
+
+.Idiomas ul {
+    display: flex;
+    width: 39vw;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+button{
+    background-color: rgb(50, 104, 145);
+    color: white;
+    padding: 2px;
+    border-radius: 6px;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 98vw;
+    height: 150vh;
+}
+
+.Principal{
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    
+}
+
+
+
+
+.Destaque {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    height: 500px;
+    border-bottom: 1px black solid;
+}
+
+
+.artigo{
+    width: 220px;
+    height: 200px
+}
+
+
+.logo svg{
+    height: 70px;
+   
+}
+
+
+
+.other-news{
+   
+    padding: 0 10px;
+   
+    border-left: 1.9px solid black;
+
+    width: 210px;
+    height: 800px;
+}
+
+.subPrincipal{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.CelularH,.subHed{
+    display: none;
+}
+
+aside{
+    display: none;
+    width: 100px;
+    height: 100vh;
+    background: #f7f7f7;
+    
+}
+
+aside ul{
+    display: none;
+    width: 100px;
+    height: 100vh;
+    background: #f7f7f7;
+    display: none;
+    
+}
+
+
+
+
+
+
+@media (max-width:414px) {
+
+    aside ul{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 500px;
+
+        left: 155px;
+        width: 100px;
+        display: none;
+    }
+
+    .imagemH, .botoes, .Idiomas, .logo, .categoria, .LinhaDupla { 
+        display: none;
+    }
+    .CelularH{
+        display: flex;
+        justify-content: space-between;
+        width: 99vw;
+    }
+
+    header p {
+        width: auto;
+    }
+
+    .subHed{
+        display: flex;
+        font-size: 10px;
+        justify-content: space-around;
+        align-items: center;
+        width: 99vw;
+        background-color: #f7f7f7;
+        height: 30px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+
+    }
+    aside{
+        width: 0px;
+        position: fixed;
+        display: block;
+        left: 0;
+        z-index: 999;
+    }
+
+    .fecha{
+        display: none;
+        z-index: 99999999;
+    }
+
+    .abrir{
+        z-index: 99999999;
+    }
+
+    .CelularH svg{ 
+        width: 200px;
+    }
+
+    .Principal {
+        display: flex;
+        flex-direction: column;
+        width: 93vw;
+
+    }
+    .Destaque{
+        width: 375px;
+        flex-direction: column;
+        height: 680px;
+        border-bottom: none;
+    }
+
+    button{
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+    }
+
+
+    .subPrincipal{
+        margin-top: 90px;
+        margin-bottom: 20px;
+        height: 150px;
+        padding-top: 23px;
+        padding-bottom: 23px;
+        
+
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+
+    }
+
+    .subPrincipal p{
+        font-size: 10px;
+        margin-left: 18px;
+        
+
+    }
+
+    .artigo{
+        width: 380px;
+        
+    }
+
+    .Imagens, .Imagens img{
+        width: 380px;
+    }
+    
+
+
+    .other-news{
+        display: none;
+    }
+}

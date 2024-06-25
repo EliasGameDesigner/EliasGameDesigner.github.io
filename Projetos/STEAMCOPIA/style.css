@@ -1,0 +1,444 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    
+    display: flex;
+    background: #171a21;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 20;
+    box-shadow: 0 0 7px 0 rgb(0 0 0 / 75%);
+    overflow: hidden;
+    padding: 13px 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: darkgrey;
+    
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    background: url(/public/images/v6/colored_body_top.png?v=2) center top no-repeat #1b2838;
+}
+
+
+a{
+    text-align: center;
+}
+
+img{
+    
+    height:64px;
+}
+
+
+.MenuCima{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.MenuCima a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background-color: rgb(28, 59, 129);
+    opacity: 70%;
+   
+    height: 34px;
+    padding: 0px 15px;
+    width: auto;
+    max-width: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #e5e5e5;
+}
+
+.MenuCima input[type="search"]{
+    background-color: #316282
+}
+
+
+
+.Principal{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1100px;
+    justify-content: space-between;
+}
+
+
+
+.Conteudo{
+    margin-top: 100px;
+    
+    width: 940px;
+    
+}
+
+h1{
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 10px;
+    letter-spacing: 0.03em;
+    font-weight: normal;
+   
+}
+
+
+.slider{
+    
+    height: 353px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+
+
+.imgB{
+    
+    height: 353px;
+    width: 626px;
+    z-index: 1;
+}
+
+.info{
+    height: 353px;
+    width: 314px;
+    background-image: url(https://store.cloudflare.steamstatic.com/public/images/v6/home/background_maincap_2.jpg
+        );
+}
+
+.infoT{
+    max-height: 62px;
+    overflow: hidden;
+    font-size: 24px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    line-height: 26px;
+    color: #ffffff;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+    padding-left: 10px;
+    
+}
+
+.infoIMGS{
+    width: 344px;
+    display: inline-block;
+    margin-left: -22px;
+    max-height: 176px;
+    overflow: hidden;
+    z-index: inherit;
+}
+
+.infoIMGS img{
+    width: 162px;
+    height: 69px;
+}
+
+
+
+.Banner{
+   
+    
+    margin-top: 100px;
+    display: block;
+    background: url(https://cdn.cloudflare.steamstatic.com/steam/clusters/takeunder/21731e25aa0bbb02afbf02ae/takeunder_desktop_brazilian.jpg?t=1714410412) no-repeat center;
+    max-width: 940px;
+    width: 100%;
+    height: 150px;
+    max-height: 150px;
+    background-size: cover;
+    background-color: #1b2838;
+    
+}
+
+.newConteiner{
+    display: flex;
+}
+
+.Ofertas{
+    margin-top: 100px;
+    height: 353px;
+    
+    flex-direction: row;
+    
+    
+}
+
+.Cartazes{
+    display: flex;
+    flex-direction: row;
+}
+
+.cartaz{
+    width: 306px;
+    height: 390px;
+    margin-right: 20px;
+    background-image: url(https://store.cloudflare.steamstatic.com/public/images/v6/home/background_spotlight.jpg);
+}
+
+
+.cartazes2{
+    width: 306px;
+    height: 403px;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+.cartaz2{
+    width: 306px;
+    height: 180px;
+    margin-bottom: 22px;
+    background-color: #dcdedf;
+    
+}
+
+.cartaz2 img{
+    width: 306px;
+    height: 143px;
+}
+
+.cartaz img{
+    width: 306px;
+    height: 260px;
+
+}
+
+
+
+
+.Categorias{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 210px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c6d4df;
+    font-size: 12px;
+   
+}
+
+.Categorias a{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+
+}
+
+.Categorias h2{
+    color: #536f86;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.conteinerC{
+    margin-bottom: 15px;
+}
+
+a:visited{
+    color: #7A8B9D;
+}
+
+.LinkCa{
+    
+    display: block;
+    position: relative;
+    
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    line-height: 16px;
+    float: left;
+    font-size: 14px;
+    color: #dcdedf;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "Motiva Sans", "Twemoji", "Noto Sans", Helvetica, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+footer{
+    position: relative;
+    top:auto;
+    bottom: auto;
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+    background-color: #171a21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    
+}
+
+
+@media screen and (max-width: 414px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    body{
+        
+        width: 414px;
+
+    }
+
+    header{
+        flex-direction: row;
+        width: 401px;
+        
+
+    }
+
+    header a{
+        width: 110px;
+        font-size: 12px;
+    }
+
+    header img{
+        display: none;
+    }
+
+    body{
+        width: auto;
+        height: auto;
+    
+    }
+
+    .infoT{
+        padding: 100px;
+    }
+
+    .Principal{
+        
+        
+        width: 164px;
+    }
+
+    .DestaquesT{
+        
+        margin-left: 127px;
+    }
+    .infoIMGS{
+        width: 331px;
+    }
+
+
+    .MenuCima{
+        
+        margin-top: 50px;
+        flex-direction: column;
+        width: 430px;
+
+
+    }
+    .MenuCima a{
+        width: 420px;
+    }
+
+    input{
+        width: 411px;
+        margin-left: 9px;
+    }
+
+    
+    .slider{
+        width: 530px;
+        height: 500px;
+        flex-direction: column;
+    }
+
+    .info{
+        
+        width: 526px;
+        background: linear-gradient(180deg, #0A141D 0%, rgba(10, 20, 29, 0.2) 100%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imgB{
+        width: 526px;
+    }
+
+    .Categorias{
+        display: none;
+    }
+
+    .Conteudo{
+        width: 544px;
+        
+        
+    }
+
+    
+
+
+    .Banner{
+        width: 527px;
+        margin-right: 0px;
+    }
+
+    .newConteiner{
+        max-width: 500px;
+        overflow-x: scroll;
+    }
+
+    .Ofertas{
+       
+        max-width: 500px;
+        margin-left: 129px 
+    }
+
+    footer{
+        width: 412px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+
+}
+
+
