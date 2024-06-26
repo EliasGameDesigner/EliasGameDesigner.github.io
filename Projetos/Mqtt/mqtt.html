@@ -64,13 +64,23 @@
 
 // cria o tópico (variavel) que será acessado pelos PCs
 // todo PC que Usar este Tópico conseguirá receber as Mensagens
-topico = "cedup/texto";
+// topico = "cedup/texto";
 
 
-//cria um cliente para se conectar ao servidor MQTT na porta 8000
+// //cria um cliente para se conectar ao servidor MQTT na porta 8000
 
-client = new Paho.MQTT.Client("broker.hivemq.com", Number(8000), "")
-client.connect({onSuccess:Conectou})
+// client = new Paho.MQTT.Client("broker.hivemq.com", Number(8000), "")
+// client.connect({onSuccess:Conectou})
+
+    topico= "Chat/PizzaDeBrocolis"
+    client = new Paho.MQTT.Client("ldb162bd.ala.us-east-1.emqxsl.com", Number(8084),"Usuario2000",)
+    client.connect( {
+        useSSL: true, 
+        userName : "usuario2000",
+        password : "12345",
+        onSuccess:Conectou
+     } )
+
 
 function Conectou(){
     //envia o tópico (variável) lida por todos os computadores
