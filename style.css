@@ -253,6 +253,7 @@ span{
     color: #CCCCCC;
     font-size: 3vw;
     text-decoration: none;
+    position: sticky;
     
 }
 
