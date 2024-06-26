@@ -19,7 +19,7 @@ function abrirPag(a){
 
 
 
-function abrirPagP(a){
+function voltar(a){
     console.log(a)
     console.log("FOi")
     let localPag = document.querySelector('html')
