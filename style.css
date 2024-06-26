@@ -249,6 +249,13 @@ span{
 }
 
 
+.voltar{
+    color: #CCCCCC;
+    font-size: 2vw;
+    
+}
+
+
 
 
 @media screen and (max-width: 414px) {
