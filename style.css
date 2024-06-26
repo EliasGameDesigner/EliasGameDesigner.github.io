@@ -249,9 +249,9 @@ span{
 }
 
 
-.voltar{
+.voltar a{
     color: #CCCCCC;
-    font-size: 2vw;
+    font-size: 3vw;
     text-decoration: none;
     
 }
@@ -262,7 +262,7 @@ span{
 @media screen and (max-width: 414px) {
 
     main{
-        justify-content: space-around
+        justify-content: space-around;
     }
 
     header{
