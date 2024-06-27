@@ -16,6 +16,12 @@ function proxImage(img){
 }
 
 
+document.documentElement.addEventListener('wheel', (event) => {
+    event.preventDefault() // prevent vertical scroll
+    document.documentElement.scrollLeft += event.deltaY
+})
+
+
 
 // window.onload = function(){
 //     for(;item<9; item++){

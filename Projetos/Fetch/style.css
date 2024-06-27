@@ -28,3 +28,9 @@ img:hover{
 
 
 }
+
+
+
+*{
+    overflow-x: hidden;
+}
