@@ -34,3 +34,4 @@ function voltar(a){
     pag.open('GET', `${a}`)
     pag.send()
 }
+>>>>>>> b593ec41faae7cf4d6cf66f0e37869c95c52e682
