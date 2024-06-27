@@ -229,6 +229,7 @@ span{
     align-items: center;
     color: #CCCCCC ;
     transition: 0.5s all ease-in-out;
+    box-shadow: -1px 0px 20px #ff4a57;
 }
 
 
