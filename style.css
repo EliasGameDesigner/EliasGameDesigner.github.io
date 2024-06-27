@@ -39,6 +39,7 @@ li{
     /* margin-top: 120vh; */
     border: 1px solid #ff4a57;
     border-radius: 100px;
+    box-shadow: -1px 0px 20px #ff4a57;
     
 }
 
