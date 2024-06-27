@@ -194,6 +194,8 @@ span{
 
 .botaoL img{
     width: 12vw;
+    background: linear-gradient(6deg, #252424, transparent);
+    border-radius: 200px;
 }
 
 
