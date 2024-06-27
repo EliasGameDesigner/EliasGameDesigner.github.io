@@ -116,8 +116,7 @@ header{
 }
 
 .botao{
-    /* border: solid 1px blue;
-    border-radius: 20px; */
+    
     border: none;
     color: #CCCCCC;
     background-color: rgba(54, 54, 54, 0);
@@ -261,6 +260,11 @@ span{
     text-decoration: none;
     position: sticky;
     
+}
+
+.voltar{
+    position: sticky;
+    top: 0%;
 }
 
 
